@@ -12,8 +12,8 @@ app.get('/', function (req, res) {
 
 })
 
-app.get('/hello', (req, res) => {
-  res.send('Hello World!')
+app.get('/hi', (req, res) => {
+  res.send('Hello!')
 })
 
 app.get('/big',  (req, res) =>{
