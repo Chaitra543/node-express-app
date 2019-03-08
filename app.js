@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, './scripts')))
 
 app.get('/', function (req, res) {
   //res.send('Welcome home!')
-  res.sendFile(path.join(__dirname, '/function.html'))
+  res.sendFile(path.join(__dirname, '/scripts/function.html'))
 
 })
 
